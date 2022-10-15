@@ -14,3 +14,10 @@ def full_name_male():
 
 
 print(full_name_male())
+
+def first_name_female():
+    name3 = names.get_first_name(gender='female')
+    return name3
+
+
+print(first_name_female())
